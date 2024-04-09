@@ -12,7 +12,7 @@
 - Use attention module before Avgpooling in efficientnet to learn time series feature.
 - Using 2 stage training, 1st stage with all data, 2nd stage with only voter>7 data. (high quality label data)
 - Doing pseudo label to voter<7 data, then add to 2nd stage training. (replace low quality data with pseudo label)
-- Multimodal is critical to model, so combine public notebook 1D raw eeg model with our 2D spectrogram model.
+- Multimodal is crucial, so combine public notebook 1D raw eeg model with our 2D spectrogram model.
 
 ## Model
 - EfficientNet_b0 with attention module
