@@ -1,13 +1,18 @@
 # Kaggle - HMS-Harmful-Brain-Activity-Classification
 **2024/04/09 - Silver Medal - Top 4%**  
-**Thanks to my teammate David Jaw**  
+**Thanks to my teammate - David Jaw**  
 [Competition Link](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification)
 
 ## Solution
 
 
 ## Insight
-- Split each soundfile by every 5 seconds, and convert to MelSpectrogram.
+- Convert raw eeg data to spectrogram with time length 10s/30s.
+- Combine eeg_spectrogram with kaggle_spectrogram into shape (400, N) image, N depands on time length .
+- Use attention module before Avgpooling in efficientnet to learn time series feature.
+- Using 2 stage training, 1st stage with all data, 2nd stage with only voter>7 data. (high quality label data)
+- Doing pseudo label to voter<7 data, then add to 2nd stage training. (replace low quality data with pseudo label)
+- Multimodal is critical to model, so combine public notebook 1D raw eeg model with our 2D spectrogram model.
 
 ## Model
 - EfficientNet_b0 with attention module
@@ -24,13 +29,11 @@
 - ShiftScaleRotate
 
 ## Training
-- use nfnet_l0 to do soft pseudo label
 - image size = (400, 912)
-- 25 epochs
+- 25 epochs with 1st stage, 15 epoch with 2nd stage.
 - lr = 3e-4
 - batch size = 16
 - mixup prob= 0.3
-
 
 ## Validation
 - 5 fold.
