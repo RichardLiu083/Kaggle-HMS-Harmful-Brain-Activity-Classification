@@ -1,6 +1,6 @@
 # Kaggle - HMS-Harmful-Brain-Activity-Classification
 **2024/04/09 - Silver Medal - Top 4%**  
-**Thanks to my teammate David Jaw**
+**Thanks to my teammate David Jaw**  
 [Competition Link](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification)
 
 ## Solution
