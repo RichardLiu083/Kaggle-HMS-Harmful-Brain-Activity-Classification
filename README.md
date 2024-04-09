@@ -38,7 +38,7 @@
 
 ## Inference
 - 4 notebook ensemble (check ensemble folder)
-  > Richard notebook with LB=0.31  
-  > David notebook with LB=0.31  
-  > Public notebook with LB=0.31  
-  > Public notebook with LB=0.29  
+  - Richard notebook with LB=0.31  
+  - David notebook with LB=0.31  
+  - Public notebook with LB=0.31  
+  - Public notebook with LB=0.29  
