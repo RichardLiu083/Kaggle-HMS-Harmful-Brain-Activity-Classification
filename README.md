@@ -17,6 +17,7 @@
   - EfficientNet_b0 with attention module
   - EfficientNet_v2s with attention module
   - Convnext_base
+  
 - David Pipeline:
   - EfficientNet_b0
   - MobileNetv3-Large
@@ -30,6 +31,7 @@
   - VerticalFlip
   - XYMasking
   - ShiftScaleRotate
+  
 - David Pipeline:
   - crop size (400, 256 + 512)
   - RandomBrightnessContrast
@@ -44,6 +46,7 @@
   - lr = 3e-4
   - batch size = 16
   - mixup prob= 0.3
+  
 - David pipeline
   - image size = (400, 256 + 512)
     - As discussed [here](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/468010), I get the spectrogram and eeg clips with respective offsets. 
