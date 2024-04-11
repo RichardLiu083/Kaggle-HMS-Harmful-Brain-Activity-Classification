@@ -41,4 +41,6 @@
   - Richard notebook with LB=0.31  
   - David notebook with LB=0.31  
   - Public notebook with LB=0.31  
-  - Public notebook with LB=0.29  
+  - Public notebook with LB=0.29
+
+- final result LB=0.28
