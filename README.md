@@ -13,7 +13,7 @@
 - Multimodal is crucial, so combine public notebook 1D raw eeg model with our 2D spectrogram model.
 
 ## Model
-- Richard Pipeline:
+- **Richard Pipeline:**
   - EfficientNet_b0 with attention module
   - EfficientNet_v2s with attention module
   - Convnext_base
@@ -50,7 +50,7 @@
   - mixup prob= 0.3
 
   
-- David pipeline
+- David pipeline:
   - image size = (400, 256 + 512)
     - As discussed [here](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/468010), I get the spectrogram and eeg clips with respective offsets. 
     - For spectrogram provided by Kaggle, the clip shape is around `[400, 300]`, and I randomly crop it by width of `256` during training, pick the first `256` during testing.
