@@ -16,7 +16,7 @@
 - **Richard Pipeline:**
   - EfficientNet_b0 with attention module
   - EfficientNet_v2s with attention module
-  - Convnext_base \n
+  - Convnext_base
 - **David Pipeline:**
   - EfficientNet_b0
   - MobileNetv3-Large
@@ -38,15 +38,13 @@
   - YMasking
 
 ## Training
-- Richard Pipeline:
+- **Richard Pipeline:**
   - image size = (400, 912)
   - 25 epochs with 1st stage, 15 epoch with 2nd stage.
   - lr = 3e-4
   - batch size = 16
   - mixup prob= 0.3
-
-  
-- David pipeline:
+- **David pipeline:**
   - image size = (400, 256 + 512)
     - As discussed [here](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/468010), I get the spectrogram and eeg clips with respective offsets. 
     - For spectrogram provided by Kaggle, the clip shape is around `[400, 300]`, and I randomly crop it by width of `256` during training, pick the first `256` during testing.
