@@ -2,7 +2,7 @@
 **2024/04/09 - Silver Medal - Top 4%**  
 **Thanks to my teammate - David Jaw**  
 [Competition Link](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification)
-![image](https://github.com/RichardLiu083/Kaggle-BirdCLEF-2023/blob/main/birdcall_rank.png)
+![image](https://github.com/RichardLiu083/Kaggle-HMS-Harmful-Brain-Activity-Classification/blob/master/kaggle.PNG)
 
 ## Solution
 
