@@ -13,7 +13,7 @@
 - Multimodal is crucial, so combine public notebook 1D raw eeg model with our 2D spectrogram model.
 
 ## Model
-- //Richard Pipeline://
+- **Richard Pipeline:**
   - EfficientNet_b0 with attention module
   - EfficientNet_v2s with attention module
   - Convnext_base
@@ -22,7 +22,7 @@
   - MobileNetv3-Large
 
 ## Augmentation
-- Richard Pipeline:
+- **Richard Pipeline:**
   - crop size (400, 912)
   - RandomBrightnessContrast
   - mixup
@@ -30,9 +30,7 @@
   - VerticalFlip
   - XYMasking
   - ShiftScaleRotate
-
-  
-- David Pipeline:
+- **David Pipeline:**
   - crop size (400, 256 + 512)
   - RandomBrightnessContrast
   - mixup
