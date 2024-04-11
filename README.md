@@ -13,7 +13,7 @@
 - Multimodal is crucial, so combine public notebook 1D raw eeg model with our 2D spectrogram model.
 
 ## Model
-- **Richard Pipeline:**<span style="color:blue">
+- Richard Pipeline:<span style="color:blue">
   - EfficientNet_b0 with attention module
   - EfficientNet_v2s with attention module
   - Convnext_base
