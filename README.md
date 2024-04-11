@@ -17,6 +17,7 @@
   - EfficientNet_b0 with attention module
   - EfficientNet_v2s with attention module
   - Convnext_base
+
   
 - David Pipeline:
   - EfficientNet_b0
@@ -31,6 +32,7 @@
   - VerticalFlip
   - XYMasking
   - ShiftScaleRotate
+
   
 - David Pipeline:
   - crop size (400, 256 + 512)
@@ -46,6 +48,7 @@
   - lr = 3e-4
   - batch size = 16
   - mixup prob= 0.3
+
   
 - David pipeline
   - image size = (400, 256 + 512)
