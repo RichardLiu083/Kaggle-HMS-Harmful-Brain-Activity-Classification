@@ -4,9 +4,6 @@
 [Competition Link](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification)
 ![image](https://github.com/RichardLiu083/Kaggle-HMS-Harmful-Brain-Activity-Classification/blob/master/kaggle.PNG)
 
-## Solution
-
-
 ## Insight
 - Convert raw eeg data to spectrogram with time length 10s/30s.
 - Combine eeg_spectrogram with kaggle_spectrogram into shape (400, N) image, N depands on time length .
