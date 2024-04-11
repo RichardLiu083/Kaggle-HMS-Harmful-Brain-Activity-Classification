@@ -1,0 +1,7 @@
+.idea
+weights
+cache
+debug/*
+__pycache__
+proj
+
