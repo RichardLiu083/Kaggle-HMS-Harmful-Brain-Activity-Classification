@@ -13,7 +13,7 @@
 - Multimodal is crucial, so combine public notebook 1D raw eeg model with our 2D spectrogram model.
 
 ```diff
-- text in red
++ text in red
 + text in green
 ! text in orange
 # text in gray
