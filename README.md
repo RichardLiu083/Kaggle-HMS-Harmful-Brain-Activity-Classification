@@ -13,25 +13,28 @@
 - Multimodal is crucial, so combine public notebook 1D raw eeg model with our 2D spectrogram model.
 
 ## Model
-- EfficientNet_b0 with attention module
-- EfficientNet_v2s with attention module
-- Convnext_base
+- Richard Pipeline:
+  - EfficientNet_b0 with attention module
+  - EfficientNet_v2s with attention module
+  - Convnext_base
 
 ## Augmentation
-- crop size (400, 912)
-- RandomBrightnessContrast
-- mixup
-- HorizontalFlip
-- VerticalFlip
-- XYMasking
-- ShiftScaleRotate
+- Richard Pipeline:
+  - crop size (400, 912)
+  - RandomBrightnessContrast
+  - mixup
+  - HorizontalFlip
+  - VerticalFlip
+  - XYMasking
+  - ShiftScaleRotate
 
 ## Training
-- image size = (400, 912)
-- 25 epochs with 1st stage, 15 epoch with 2nd stage.
-- lr = 3e-4
-- batch size = 16
-- mixup prob= 0.3
+- Richard Pipeline:
+  - image size = (400, 912)
+  - 25 epochs with 1st stage, 15 epoch with 2nd stage.
+  - lr = 3e-4
+  - batch size = 16
+  - mixup prob= 0.3
 
 ## Inference
 - 4 notebook ensemble (check Ensemble_Notebook folder)
