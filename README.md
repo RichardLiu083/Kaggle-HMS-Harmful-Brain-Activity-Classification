@@ -16,8 +16,7 @@
 - **Richard Pipeline:**
   - EfficientNet_b0 with attention module
   - EfficientNet_v2s with attention module
-  - Convnext_base
-    
+  - Convnext_base \n
 - **David Pipeline:**
   - EfficientNet_b0
   - MobileNetv3-Large
