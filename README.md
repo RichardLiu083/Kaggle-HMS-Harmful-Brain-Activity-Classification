@@ -12,6 +12,13 @@
 - Doing pseudo label to voter<7 data, then add to 2nd stage training. (replace low quality data with pseudo label)
 - Multimodal is crucial, so combine public notebook 1D raw eeg model with our 2D spectrogram model.
 
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 ## Model
 - <span style="color:blue">Richard Pipeline:</span>
   - EfficientNet_b0 with attention module
