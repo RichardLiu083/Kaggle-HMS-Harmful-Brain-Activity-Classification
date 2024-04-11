@@ -55,10 +55,9 @@
   - mixup prob = 0.3
 
 ## Inference
-- 4 notebook ensemble (check Ensemble_Notebook folder)
+- **4 notebook ensemble (check Ensemble_Notebook folder)**
   - Richard notebook with LB=0.31  
   - David notebook with LB=0.31  
   - Public notebook with LB=0.31  (tensorflow pipeline)
   - Public notebook with LB=0.29  (public notebook ensemble)
-
-- final result LB=0.28
+- **final result LB=0.28**
