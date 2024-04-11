@@ -20,7 +20,9 @@
 @@ text in purple (and bold)@@
 ```
 ## Model
-- <span style="color:blue">Richard Pipeline:</span>
+```diff
+- Richard Pipeline:
+```
   - EfficientNet_b0 with attention module
   - EfficientNet_v2s with attention module
   - Convnext_base
